@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html{
+    font-size: 5.33333vw;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #669AFF;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.header .logo{
+    width: 32%;
+    height: 63%;
+    margin-top: 3%;
+}
+.header .phone{
+    width: 5%;
+    height: 52%;
+    margin:3% 2% 0 22%;
+}
+.banner{
+    width: 100%;
+    height: 200px; 
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.main-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.main-skill{
+    width: 100%;
+    height: 300px;
+}
+.main-skill ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin: 15% 2%;
+}
+.main-skill ul li{
+    width: 28%;
+    height: 45%;
+    margin: 2% 2%;
+    line-height: 155%;
+}
+.main-skill ul li p{
+    font-size: 18px;
+    color: #ccc;
+}
+.main-class{
+    height: 150px;
+    background-image: url(../img/banner2.jpg) ;
+    background-size: 100% 100%;
+    padding: 8% 7%;
+    text-align: center;
+    color: white;
+}
+.main-class-des{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap:break-word;
+}
+.main-class-des p{
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    font-size: 16px;
+}
+.main-course{
+    width: 90%;
+    margin: 5% 5%;
+}
+.main-course ul{
+    height:100%;
+}
+.main-course ul li{
+    width: 100%;
+    border-radius: 30px;
+    margin: 5% 0;
+}
+.main-course ul li img{
+    width: 100%;
+    height: 100%;
+}
+.main-code{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/codeBanner.jpg) ;
+    background-size: 100% 100%;
+    position: relative;
+}
+.main-code img{
+    position: absolute;
+    right: 0;
+}
+.main-code p{
+    width: 4px;
+    height: 90px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    right: 49%;
+}
+footer{
+    height: 50px;
+    background: #3B3AB2;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: white;
+}
